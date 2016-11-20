@@ -1,0 +1,15 @@
+<%=provide(:title, "About")%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=yield(:title)%></title>
+  </head>
+  <body>
+  <li><%= link_to "Home", '/static_pages/home' %></li>
+    <h1>About</h1>
+    <p>
+      ActiveVoter is a web applet allowing voters to make informed decisions by educating them based on where they are. 
+      Conceived at HackDuke 2016 by Fernando, Gabriel, and Marcus.
+    </p>
+  </body>
+</html>
