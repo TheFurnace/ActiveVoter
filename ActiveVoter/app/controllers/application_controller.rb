@@ -11,4 +11,8 @@ class ApplicationController < ActionController::Base
 	end
   end
 
+  zipCode = user_params[:user][:zip]
+  puts "zipCode"
+
+
 end
